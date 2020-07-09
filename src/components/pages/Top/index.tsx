@@ -1,14 +1,14 @@
 import React from 'react';
 import style from './style.module.sass'
-import { ScrollIcon } from '../../molecules/ScrollIcon'
 import { Overlay } from '../../atoms/Overlay'
-import { Txt, WhiteTxt } from '../../atoms/Txt'
+import { AppTitle } from '../../organisms/AppTitle'
 
 export const Top = () => (
-  <section className={style.section}>
+  <section className={style.container}>
     <Overlay>
-      <WhiteTxt tag='h1' size='xl'>Hokusai Katsushika</WhiteTxt>
-      <ScrollIcon/>
+      <div className={style.content}>
+        <AppTitle/>
+      </div>
     </Overlay>
   </section>
 );

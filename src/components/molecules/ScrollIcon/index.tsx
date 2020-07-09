@@ -29,12 +29,12 @@ const variants = {
   small: {
     width: 40,
     height: 40,
-    y: 50,
+    y: 75,
   },
   big: {
     width: 60,
     height: 60,
-    y: 0,
+    y: 25,
   },
 }
 const transition = {
