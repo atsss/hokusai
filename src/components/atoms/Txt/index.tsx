@@ -17,5 +17,5 @@ const txtFactory = (role: string) => ({
   </Tag>
 );
 
-export const Txt = txtFactory("default");
+export const Txt = txtFactory("black");
 export const WhiteTxt = txtFactory("white");
