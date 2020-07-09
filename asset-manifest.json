@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hokusai/static/css/main.d5b5ef7b.chunk.css",
-    "main.js": "/hokusai/static/js/main.cc801156.chunk.js",
-    "main.js.map": "/hokusai/static/js/main.cc801156.chunk.js.map",
+    "main.css": "/hokusai/static/css/main.2fed6b07.chunk.css",
+    "main.js": "/hokusai/static/js/main.069dd97f.chunk.js",
+    "main.js.map": "/hokusai/static/js/main.069dd97f.chunk.js.map",
     "runtime-main.js": "/hokusai/static/js/runtime-main.49392689.js",
     "runtime-main.js.map": "/hokusai/static/js/runtime-main.49392689.js.map",
     "static/css/2.a7bca8fd.chunk.css": "/hokusai/static/css/2.a7bca8fd.chunk.css",
-    "static/js/2.6182bcb1.chunk.js": "/hokusai/static/js/2.6182bcb1.chunk.js",
-    "static/js/2.6182bcb1.chunk.js.map": "/hokusai/static/js/2.6182bcb1.chunk.js.map",
+    "static/js/2.cc3f9a43.chunk.js": "/hokusai/static/js/2.cc3f9a43.chunk.js",
+    "static/js/2.cc3f9a43.chunk.js.map": "/hokusai/static/js/2.cc3f9a43.chunk.js.map",
     "index.html": "/hokusai/index.html",
-    "precache-manifest.af81119a099459d25f6392862c5744b4.js": "/hokusai/precache-manifest.af81119a099459d25f6392862c5744b4.js",
+    "precache-manifest.ed4255acc9a5aff381efd80a832c86b0.js": "/hokusai/precache-manifest.ed4255acc9a5aff381efd80a832c86b0.js",
     "service-worker.js": "/hokusai/service-worker.js",
     "static/css/2.a7bca8fd.chunk.css.map": "/hokusai/static/css/2.a7bca8fd.chunk.css.map",
-    "static/css/main.d5b5ef7b.chunk.css.map": "/hokusai/static/css/main.d5b5ef7b.chunk.css.map",
-    "static/js/2.6182bcb1.chunk.js.LICENSE.txt": "/hokusai/static/js/2.6182bcb1.chunk.js.LICENSE.txt",
+    "static/css/main.2fed6b07.chunk.css.map": "/hokusai/static/css/main.2fed6b07.chunk.css.map",
+    "static/js/2.cc3f9a43.chunk.js.LICENSE.txt": "/hokusai/static/js/2.cc3f9a43.chunk.js.LICENSE.txt",
     "static/media/edo.png": "/hokusai/static/media/edo.ed6475c9.png",
     "static/media/great_wave.png": "/hokusai/static/media/great_wave.65ad841b.png",
     "static/media/one.png": "/hokusai/static/media/one.101b932c.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.49392689.js",
     "static/css/2.a7bca8fd.chunk.css",
-    "static/js/2.6182bcb1.chunk.js",
-    "static/css/main.d5b5ef7b.chunk.css",
-    "static/js/main.cc801156.chunk.js"
+    "static/js/2.cc3f9a43.chunk.js",
+    "static/css/main.2fed6b07.chunk.css",
+    "static/js/main.069dd97f.chunk.js"
   ]
 }
