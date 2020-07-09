@@ -14,10 +14,10 @@ export const Menu = () => (
         </FadeIn>
         <FadeIn breakpoint={1.15}>
           <div className={'u-mt64'}>
-            <Button>Ukiyoe</Button>
-            <Button className='u-mt32'>Life of Hokusai</Button>
-            <Button className='u-mt32'>Hokusai's style</Button>
-            <Button className='u-mt32'>Landscape prints</Button>
+            <Button to='/ukiyoe'>Ukiyoe</Button>
+            <Button to='/ukiyoe' className='u-mt32'>Life of Hokusai</Button>
+            <Button to='/ukiyoe' className='u-mt32'>Hokusai's style</Button>
+            <Button to='/ukiyoe' className='u-mt32'>Landscape prints</Button>
           </div>
         </FadeIn>
       </div>
