@@ -3,6 +3,7 @@ import { AppTitle } from '../../organisms/AppTitle'
 import { Hokusai } from '../../organisms/tops/Hokusai'
 import { Ukiyoe } from '../../organisms/tops/Ukiyoe'
 import { Print } from '../../organisms/tops/Print'
+import { Menu } from '../../organisms/tops/Menu'
 
 export const Top = () => (
   <Fragment>
@@ -10,5 +11,6 @@ export const Top = () => (
     <Hokusai/>
     <Ukiyoe/>
     <Print/>
+    <Menu/>
   </Fragment>
 );
