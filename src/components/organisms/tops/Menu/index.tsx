@@ -7,12 +7,12 @@ import { FadeIn } from '../../../atoms/FadeIn'
 export const Menu = () => (
   <section className={style.container}>
       <div className={style.content}>
-        <FadeIn breakpoint={1.1}>
+        <FadeIn breakpoint={0.99}>
           <div className={style.title}>
-            <WhiteTxt tag='h2' size='xl'>What is Ukiyoe?</WhiteTxt>
+            <WhiteTxt tag='h2' size='xl'>What is more?</WhiteTxt>
           </div>
         </FadeIn>
-        <FadeIn breakpoint={1.15}>
+        <FadeIn breakpoint={0.999}>
           <div className={'u-mt64'}>
             <Button to='/ukiyoe'>Ukiyoe</Button>
             <Button to='/ukiyoe' className='u-mt32'>Life of Hokusai</Button>
