@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbb9aae1c44d49de0435006b97b2f56d",
+    "revision": "222997d1fe38426ed505556d45757e12",
     "url": "/hokusai/index.html"
   },
   {
