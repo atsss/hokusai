@@ -1,11 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import "./App.sass";
-import { Top } from './components/pages/Top';
+import { Routes } from './config/Routes';
 
-const App = () => (
-  <Fragment>
-    <Top/>
-  </Fragment>
-);
+const App = () => <Routes/>;
 
 export default App;
