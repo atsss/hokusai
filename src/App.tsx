@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
-import { withRouter } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 import "./App.sass";
 import { Routes } from './config/Routes';
 
-const App = (props: any) => { // FIXME
+const App = () => {
+  const { pathname } = useLocation();
+
   useEffect(() => {
     const rootElement = document.getElementById('root');
     if(rootElement !== null) { document.body.style.height = rootElement.clientHeight + 'px' }
-  }, [props.location.pathname])
+  }, [pathname])
 
   return <Routes/>;
 }
 
-export default withRouter(App);
+export default App;
