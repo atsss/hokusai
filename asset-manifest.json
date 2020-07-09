@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/hokusai/static/css/main.c08172e2.chunk.css",
+    "main.js": "/hokusai/static/js/main.3cfd6311.chunk.js",
+    "main.js.map": "/hokusai/static/js/main.3cfd6311.chunk.js.map",
+    "runtime-main.js": "/hokusai/static/js/runtime-main.49392689.js",
+    "runtime-main.js.map": "/hokusai/static/js/runtime-main.49392689.js.map",
+    "static/css/2.a7bca8fd.chunk.css": "/hokusai/static/css/2.a7bca8fd.chunk.css",
+    "static/js/2.b1264120.chunk.js": "/hokusai/static/js/2.b1264120.chunk.js",
+    "static/js/2.b1264120.chunk.js.map": "/hokusai/static/js/2.b1264120.chunk.js.map",
+    "index.html": "/hokusai/index.html",
+    "precache-manifest.63536f6a4d0a3d7b8200a609eeab1141.js": "/hokusai/precache-manifest.63536f6a4d0a3d7b8200a609eeab1141.js",
+    "service-worker.js": "/hokusai/service-worker.js",
+    "static/css/2.a7bca8fd.chunk.css.map": "/hokusai/static/css/2.a7bca8fd.chunk.css.map",
+    "static/css/main.c08172e2.chunk.css.map": "/hokusai/static/css/main.c08172e2.chunk.css.map",
+    "static/js/2.b1264120.chunk.js.LICENSE.txt": "/hokusai/static/js/2.b1264120.chunk.js.LICENSE.txt",
+    "static/media/edo.png": "/hokusai/static/media/edo.ed6475c9.png",
+    "static/media/great_wave.png": "/hokusai/static/media/great_wave.65ad841b.png",
+    "static/media/portrait.png": "/hokusai/static/media/portrait.fb9685fb.png",
+    "static/media/style.module.sass": "/hokusai/static/media/print.f1f966f0.png",
+    "static/media/prints.png": "/hokusai/static/media/prints.18df4309.png",
+    "static/media/scrollIcon.png": "/hokusai/static/media/scrollIcon.1ee01f40.png",
+    "static/media/ukiyoes.png": "/hokusai/static/media/ukiyoes.1c0d0de7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49392689.js",
+    "static/css/2.a7bca8fd.chunk.css",
+    "static/js/2.b1264120.chunk.js",
+    "static/css/main.c08172e2.chunk.css",
+    "static/js/main.3cfd6311.chunk.js"
+  ]
+}
