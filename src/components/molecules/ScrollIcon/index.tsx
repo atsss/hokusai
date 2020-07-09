@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { Frame } from "framer"
-import { useCycle } from "framer-motion"
+import { motion, useCycle } from "framer-motion"
 import scrollIcon from '../../../images/scrollIcon.png'
 import style from './style.module.sass'
 
@@ -13,15 +12,14 @@ export const ScrollIcon = () => {
     });
 
   return (
-    <Frame
+    <motion.div
       variants={variants}
       transition={transition}
       initial={'small'}
       animate={current}
-      radius={'100%'}
     >
       <img src={scrollIcon} className={style.image} alt='icon' />
-    </Frame>
+    </motion.div>
   )
 }
 

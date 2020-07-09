@@ -11,9 +11,11 @@ export const AppTitle = () => (
         <div className={style.title}>
           <WhiteTxt tag='h1' size='xxl'>Hokusai Katsushika</WhiteTxt>
         </div>
+        <div className={style.text}>
+          <WhiteTxt size='s'>scroll up</WhiteTxt>
+        </div>
         <div className={style.icon}>
           <ScrollIcon/>
-          <WhiteTxt size='s'>scroll up</WhiteTxt>
         </div>
       </div>
     </Overlay>
