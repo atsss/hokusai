@@ -4,15 +4,17 @@ import style from "./style.module.sass";
 interface Props {
   tag?: keyof JSX.IntrinsicElements,
   size?: string,
-  children: React.ReactNode
+  children: React.ReactNode,
+  className?: string
 }
 
 const txtFactory = (role: string) => ({
   tag: Tag = "p",
   size = "m",
-  children
+  children,
+  className
 }: Props) => (
-  <Tag className={[style[role], style[size]].join(" ")} >
+  <Tag className={[style[role], style[size], className].join(" ")} >
     {children}
   </Tag>
 );
