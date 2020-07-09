@@ -10,8 +10,8 @@ export const Ukiyoe = () => (
         <div className={style.title}>
           <WhiteTxt tag='h2' size='xl'>What is Ukiyoe?</WhiteTxt>
         </div>
-        <div className={[style.hokusai, 'u-mt64'].join(' ')}>
-          <Img src={UkiyoesImage} alt='Hokusai portrait'/>
+        <div className={'u-mt64'}>
+          <Img src={UkiyoesImage} alt='ukiyoe paitings'/>
           <WhiteTxt tag='h3' size='l' className='u-mt16'>Traditional paintings</WhiteTxt>
           <WhiteTxt size='s' className='u-mt8'>Ukiyoe is a genre of Japanese art which flourished from the 17th through 19th centuries. Its artists produced woodblock prints and paintings of such subjects as female beauties; kabuki actors and sumo wrestlers; scenes from history and folk tales; travel scenes and landscapes.</WhiteTxt>
         </div>
