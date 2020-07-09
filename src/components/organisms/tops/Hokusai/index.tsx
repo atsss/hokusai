@@ -11,7 +11,7 @@ export const Hokusai = () => (
         <div className={style.title}>
           <Txt tag='h2' size='xl'>Who is Hokusai?</Txt>
         </div>
-        <div className={[style.hokusai, 'u-mt32'].join(' ')}>
+        <div className={[style.hokusai, 'u-mt64'].join(' ')}>
           <Img src={HokusiImage} alt='Hokusai portrait'/>
           <Txt tag='h3' size='l' className='u-mt16'>Japanese Ukiyoe artist</Txt>
           <Txt size='s' className='u-mt8'>Hokusai Katsushika was a Japanese artist, ukiyoe painter and printmaker. He is best known as author of the woodblock print series Thirty-six Views of Mount Fuji.</Txt>
