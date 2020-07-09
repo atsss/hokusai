@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c24299319bfa9e09c917df31179eb534",
+    "revision": "bbb9aae1c44d49de0435006b97b2f56d",
     "url": "/hokusai/index.html"
   },
   {
-    "revision": "49f254c17de809705224",
+    "revision": "f534c1aec76d0c2807eb",
     "url": "/hokusai/static/css/2.a7bca8fd.chunk.css"
   },
   {
-    "revision": "c4082c708936e8c9ea7f",
-    "url": "/hokusai/static/css/main.c08172e2.chunk.css"
+    "revision": "bff64c118664160dd600",
+    "url": "/hokusai/static/css/main.b2ff5eab.chunk.css"
   },
   {
-    "revision": "49f254c17de809705224",
-    "url": "/hokusai/static/js/2.b1264120.chunk.js"
+    "revision": "f534c1aec76d0c2807eb",
+    "url": "/hokusai/static/js/2.d01318e9.chunk.js"
   },
   {
-    "revision": "501f379103cbfcb5ff11211dd39a28a2",
-    "url": "/hokusai/static/js/2.b1264120.chunk.js.LICENSE.txt"
+    "revision": "216e537bacc64f9dbaabd26649a9ab95",
+    "url": "/hokusai/static/js/2.d01318e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4082c708936e8c9ea7f",
-    "url": "/hokusai/static/js/main.3cfd6311.chunk.js"
+    "revision": "bff64c118664160dd600",
+    "url": "/hokusai/static/js/main.367b7b02.chunk.js"
   },
   {
     "revision": "faf4ef293d1c65375df4",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ee01f40714b3f208fe3fea9b3e845ed",
     "url": "/hokusai/static/media/scrollIcon.1ee01f40.png"
+  },
+  {
+    "revision": "6ae283fae63e126c412e8d2248ccec61",
+    "url": "/hokusai/static/media/ukiyoe.6ae283fa.png"
   },
   {
     "revision": "1c0d0de76846d6c46a84e99bee930766",
