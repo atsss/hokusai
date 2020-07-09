@@ -25,6 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "lint-staged": {
       "*.{ts,tsx}": [
         "prettier --write",
@@ -43,6 +45,7 @@
       "trailingComma": "all"
     }
   },
+  "homepage": "https://atsss.github.io/hokusai",
   "eslintConfig": {
     "extends": "react-app"
   },
