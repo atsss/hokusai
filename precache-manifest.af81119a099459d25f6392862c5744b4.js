@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f2106ad4c49952679fb417b1c75f2d6",
+    "revision": "4bf50648adca457c2a8cc1f7959a55fc",
     "url": "/hokusai/index.html"
   },
   {
-    "revision": "01c4d68842e81ae939ba",
+    "revision": "ba097a2aad3932bffac3",
     "url": "/hokusai/static/css/2.a7bca8fd.chunk.css"
   },
   {
-    "revision": "0d12495e5ec2736a902d",
-    "url": "/hokusai/static/css/main.6cf235ce.chunk.css"
+    "revision": "67fff4614a45583ca63b",
+    "url": "/hokusai/static/css/main.d5b5ef7b.chunk.css"
   },
   {
-    "revision": "01c4d68842e81ae939ba",
-    "url": "/hokusai/static/js/2.7444a6be.chunk.js"
+    "revision": "ba097a2aad3932bffac3",
+    "url": "/hokusai/static/js/2.6182bcb1.chunk.js"
   },
   {
-    "revision": "501f379103cbfcb5ff11211dd39a28a2",
-    "url": "/hokusai/static/js/2.7444a6be.chunk.js.LICENSE.txt"
+    "revision": "216e537bacc64f9dbaabd26649a9ab95",
+    "url": "/hokusai/static/js/2.6182bcb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d12495e5ec2736a902d",
-    "url": "/hokusai/static/js/main.db753f30.chunk.js"
+    "revision": "67fff4614a45583ca63b",
+    "url": "/hokusai/static/js/main.cc801156.chunk.js"
   },
   {
     "revision": "faf4ef293d1c65375df4",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65ad841b8d50356d6c28d2d061af42f0",
     "url": "/hokusai/static/media/great_wave.65ad841b.png"
+  },
+  {
+    "revision": "101b932c5023607868f14fa96059995b",
+    "url": "/hokusai/static/media/one.101b932c.png"
   },
   {
     "revision": "fb9685fb63dd138e9f722c9829a1a000",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ee01f40714b3f208fe3fea9b3e845ed",
     "url": "/hokusai/static/media/scrollIcon.1ee01f40.png"
+  },
+  {
+    "revision": "7a7d76df6a77e91185e8268593b837d9",
+    "url": "/hokusai/static/media/two.7a7d76df.png"
   },
   {
     "revision": "6ae283fae63e126c412e8d2248ccec61",
