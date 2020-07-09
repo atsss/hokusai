@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-import { motion } from "framer-motion"
-import style from './style.module.sass'
+import React from 'react';
 import { Txt } from "../../atoms/Txt";
 import { Img } from "../../atoms/Img";
+import { HorizontalScroll } from '../../atoms/HorizontalScroll'
 
 interface Props {
   title: string,
@@ -15,7 +14,13 @@ export const ImgCards: React.FC<Props> = ({ title, data, className }) => {
     <div className={className}>
       <Txt size='l'>{title}</Txt>
       <div className='u-mt8'>
-        {data.map((card: any) => (<Img src={card.indexSrc}/>))}
+        <HorizontalScroll>
+          {data.map((list: any, index: number) => (
+            <div key={index}>
+              <Img src={list.indexSrc}/>
+            </div>
+          ))}
+        </HorizontalScroll>
       </div>
     </div>
   )
