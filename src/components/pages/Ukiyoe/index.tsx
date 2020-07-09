@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { WhiteTxt } from '../../atoms/Txt'
 import { UkiyoeHero } from '../../molecules/Hero'
 import { Header } from '../../organisms/Header'
+import { Ukiyoes } from '../../organisms/ukiyoes/Ukiyoes'
 
 export const Ukiyoe = () => (
   <Fragment>
@@ -9,5 +10,6 @@ export const Ukiyoe = () => (
     <UkiyoeHero>
       <WhiteTxt tag='h1' size='l'>The most famous painting style is Ukiyoe. The background to the spread of this art form among the general public is its mass production and its ability to lower prices.</WhiteTxt>
     </UkiyoeHero>
+    <Ukiyoes/>
   </Fragment>
 );

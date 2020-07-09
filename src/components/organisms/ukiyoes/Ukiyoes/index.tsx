@@ -1,0 +1,15 @@
+import React from 'react';
+import { UkiyoeData } from "../../../../config/Data";
+import { FadeIn } from '../../../atoms/FadeIn'
+import { Section } from '../../../atoms/Section'
+import { ImgCards } from "../../../molecules/ImgCards";
+
+export const Ukiyoes = () => (
+  <Section>
+    <FadeIn breakpoint={0.1}>
+      <ImgCards title='Early Edo period' data={UkiyoeData}/>
+      <ImgCards title='Middle Edo period' data={UkiyoeData} className='u-mt32'/>
+      <ImgCards title='Late Edo period' data={UkiyoeData} className='u-mt32'/>
+    </FadeIn>
+  </Section>
+);

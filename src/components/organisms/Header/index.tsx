@@ -19,7 +19,7 @@ export const Header: React.FC<Props>  = ({ back, children, className }) => (
       </Link>
     </div>
     <div className={style.title}>
-      <WhiteTxt size='l'>{children}</WhiteTxt>
+      <WhiteTxt tag='h1' size='l'>{children}</WhiteTxt>
     </div>
     <div className={style.dummy}>d</div>
   </header>
