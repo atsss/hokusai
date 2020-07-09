@@ -4,12 +4,20 @@ import { ScrollIcon } from '../../molecules/ScrollIcon'
 import { Overlay } from '../../atoms/Overlay'
 import { WhiteTxt } from '../../atoms/Txt'
 
-export const AppTitle = () => (
-  <section className={style.container}>
+interface Props {
+  center?: boolean,
+  children: React.ReactNode
+}
+
+const heroFactory = (role: string) => ({
+  center = false,
+  children
+}: Props) => (
+  <section className={[style.container, style[role]].join(' ')}>
     <Overlay>
       <div className={style.content}>
-        <div className={style.title}>
-          <WhiteTxt tag='h1' size='xxl'>Hokusai Katsushika</WhiteTxt>
+        <div className={center ? style.title : style.description}>
+          {children}
         </div>
         <div className={style.text}>
           <WhiteTxt size='s'>scroll up</WhiteTxt>
@@ -21,3 +29,6 @@ export const AppTitle = () => (
     </Overlay>
   </section>
 );
+
+export const PrintHero = heroFactory("print");
+export const UkiyoeHero = heroFactory("ukiyoe");
