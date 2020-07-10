@@ -26,6 +26,11 @@ import LandscapeModalTwo from "./../../images/landscapes/modals/two.png";
 import LandscapeModalThree from "./../../images/landscapes/modals/three.png";
 import LandscapeModalFour from "./../../images/landscapes/modals/four.png";
 import LandscapeModalFive from "./../../images/landscapes/modals/five.png";
+import HistoryOne from '../../images/histories/1760.png'
+import HistoryTwo from '../../images/histories/1779.png'
+import HistoryThree from '../../images/histories/1823.png'
+import HistoryFour from '../../images/histories/1849.png'
+import HistoryFive from '../../images/histories/1856.png'
 
 export const EarlyUkiyoeData = [
   { indexSrc: UkiyoeListOne, modalSrc: UkiyoeModalOne },
@@ -42,7 +47,6 @@ export const LateUkiyoeData = [
   { indexSrc: UkiyoeListEight, modalSrc: UkiyoeModalEight },
   { indexSrc: UkiyoeListNine, modalSrc: UkiyoeModalNine },
 ]
-
 export const Landscapes = [
   { lat: 35.4463437, lng: 139.7028493, indexSrc: LandscapeListOne, modalSrc: LandscapeModalOne, name: 'Graet Wave', address: '20 Daikoku-Futo, Tsurumi-ku, Yokohama City, Kanagawa' },
   { lat: 35.6812343, lng: 139.7723458, indexSrc: LandscapeListTwo, modalSrc: LandscapeModalTwo, name: 'Shinagawa gotenyama', address: '4-7 Kitashinagawa, Shinagawa-ku, Tokyo, 140-0001, Japan' },
@@ -50,3 +54,4 @@ export const Landscapes = [
   { lat: 35.2933914, lng: 139.2541174, indexSrc: LandscapeListFour, modalSrc: LandscapeModalFour, name: 'Soshu Umezawa', address: '92-45 Ninomiya, Ninomiya-cho, Nakagun, Kanagawa' },
   { lat: 35.1922165, lng: 138.0165699, indexSrc: LandscapeListFive, modalSrc: LandscapeModalFive, name: 'Tomisantyu', address: 'Inuma, Kawane Honcho, Haibara-gun, Shizuoka' },
 ]
+export const Histories = [HistoryOne, HistoryTwo, HistoryThree, HistoryFour, HistoryFive]
