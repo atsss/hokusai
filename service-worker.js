@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hokusai/precache-manifest.0017aa1e1ff94e98729491908326f742.js"
+  "/hokusai/precache-manifest.6a4363f5ba4c5a184875759ff070665b.js"
 );
 
 self.addEventListener('message', (event) => {
