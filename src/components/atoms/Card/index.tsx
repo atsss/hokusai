@@ -7,7 +7,7 @@ interface Props {
 }
 
 export const Card: React.FC<Props> = ({ children, className }) => (
-  <div className={[style.card, style.background].join(' ')}>
+  <div className={[style.card, className].join(' ')}>
     {children}
   </div>
 );
