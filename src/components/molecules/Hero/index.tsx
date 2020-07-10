@@ -32,3 +32,5 @@ const heroFactory = (role: string) => ({
 
 export const PrintHero = heroFactory("print");
 export const UkiyoeHero = heroFactory("ukiyoe");
+export const HistoryHero = heroFactory("history");
+export const StyleHero = heroFactory("style");
