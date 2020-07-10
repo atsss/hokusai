@@ -10,12 +10,16 @@ interface Props {
 
 export const Modal: React.FC<Props> = ({ children, open, onClose }) => {
   const x = useMotionValue(0)
+  const y = useMotionValue(0)
   const close = (e: any) => {
     onClose()
     e.stopPropagation()
   }
 
   x.onChange(current => {
+    if(Math.abs(current) > 100) { onClose() }
+  })
+  y.onChange(current => {
     if(Math.abs(current) > 100) { onClose() }
   })
 
@@ -37,7 +41,7 @@ export const Modal: React.FC<Props> = ({ children, open, onClose }) => {
               className={style.body}
               drag
               dragConstraints={{top: 1, right: 1, bottom: -1, left: -1}}
-              style={{x}}
+              style={{x, y}}
             >
               {children}
             </motion.div>
