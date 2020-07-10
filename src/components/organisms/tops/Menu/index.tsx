@@ -17,7 +17,7 @@ export const Menu = () => (
         <Button to='/ukiyoe'>Ukiyoe</Button>
         <Button to='/ukiyoe' className='u-mt32'>Life of Hokusai</Button>
         <Button to='/ukiyoe' className='u-mt32'>Hokusai's style</Button>
-        <Button to='/ukiyoe' className='u-mt32'>Landscape prints</Button>
+        <Button to='/landscape' className='u-mt32'>Landscape prints</Button>
       </div>
     </FadeIn>
   </Section>
