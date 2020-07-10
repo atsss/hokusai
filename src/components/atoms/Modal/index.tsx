@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './style.module.sass'
-import { AnimatePresence, motion } from "framer-motion"
+import { motion, useMotionValue, AnimatePresence } from "framer-motion"
 
 interface Props {
   children: React.ReactNode,
@@ -9,10 +9,15 @@ interface Props {
 }
 
 export const Modal: React.FC<Props> = ({ children, open, onClose }) => {
+  const x = useMotionValue(0)
   const close = (e: any) => {
     onClose()
     e.stopPropagation()
   }
+
+  x.onChange(current => {
+    if(Math.abs(current) > 100) { onClose() }
+  })
 
   return (
     <AnimatePresence>
@@ -27,12 +32,15 @@ export const Modal: React.FC<Props> = ({ children, open, onClose }) => {
             onClick={(e) => close(e)}
             className={style.overlay}
           >
-            <div
+            <motion.div
               onClick={stopPropagation}
               className={style.body}
+              drag
+              dragConstraints={{top: 1, right: 1, bottom: -1, left: -1}}
+              style={{x}}
             >
               {children}
-            </div>
+            </motion.div>
           </div>
         </motion.div>
       )}

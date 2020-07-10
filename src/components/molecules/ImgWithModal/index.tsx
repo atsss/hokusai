@@ -11,7 +11,7 @@ export const ImgWithModal: React.FC<Props> = ({ data, className }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const open = () => setIsOpen(true)
-  const close = () => { console.log('vvvv'); setIsOpen(false) }
+  const close = () => setIsOpen(false)
 
   return (
     <div className={className} onClick={() => open()}>
