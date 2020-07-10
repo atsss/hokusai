@@ -4,8 +4,10 @@ import GoogleMapReact from 'google-map-react';
 import { Landscapes } from '../../../../config/Data'
 import PinImage from '../../../../images/pin.png';
 import { Img } from '../../../../components/atoms/Img';
+import { HorizontalScroll } from '../../../../components/atoms/HorizontalScroll';
+import { ImgWithModal } from '../../../molecules/ImgWithModal'
 
-const defaultCenter = { lat: 35.2659257, lng: 138.9574245 }
+const defaultCenter = { lat: 36.133426, lng: 139.554093 }
 const Pin = (props: any) => <div className={style.pin}><Img src={PinImage}/></div>;
 
 export const Map = (props: any) => {
@@ -24,7 +26,13 @@ export const Map = (props: any) => {
             lng={center.lng}
           />
         </GoogleMapReact>
-        <div style={{ height: '30px', width: '100%' }} onClick={() => setIndex(index+1)}/>
+        <div style={{ paddingTop: '8px', paddingBottom: '8px' }}>
+          <HorizontalScroll onChange={(index: number) => setIndex(index)}>
+            {Landscapes.map((landscape, index) => (
+              <ImgWithModal key={index} data={landscape}/>
+            ))}
+          </HorizontalScroll>
+        </div>
       </div>
     );
 }

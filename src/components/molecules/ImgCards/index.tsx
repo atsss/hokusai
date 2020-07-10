@@ -16,9 +16,7 @@ export const ImgCards: React.FC<Props> = ({ title, data, className }) => {
       <div className='u-mt8'>
         <HorizontalScroll>
           {data.map((list: any, index: number) => (
-            <div key={index}>
-              <ImgWithModal data={list}/>
-            </div>
+            <ImgWithModal key={index} data={list}/>
           ))}
         </HorizontalScroll>
       </div>

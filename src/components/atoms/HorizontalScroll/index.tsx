@@ -4,7 +4,7 @@ import style from './style.module.sass'
 
 interface Props {
   children: React.ReactNode[]
-  onChange?: () => void
+  onChange?: (i: number) => void
 }
 
 export const HorizontalScroll: React.FC<Props> = ({ children, onChange = (i: number) => console.log(i) }) => {
