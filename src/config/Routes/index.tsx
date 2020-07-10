@@ -5,6 +5,7 @@ import { Ukiyoe } from '../../components/pages/Ukiyoe/';
 import { Landscape } from '../../components/pages/Landscape/';
 import { Style } from '../../components/pages/Style/';
 import { History } from '../../components/pages/History/';
+import { Camera } from '../../components/pages/Camera/';
 
 export const Routes = () => (
   <Switch>
@@ -13,5 +14,6 @@ export const Routes = () => (
     <Route exact path="/landscape" component={Landscape} />
     <Route exact path="/style" component={Style} />
     <Route exact path="/history" component={History} />
+    <Route exact path="/camera" component={Camera} />
   </Switch>
 );

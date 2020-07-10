@@ -9,18 +9,18 @@ import { Button } from '../../../atoms/Button'
 
 export const Video = () => (
   <Section background>
-    <FadeIn breakpoint={0.66}>
+    <FadeIn breakpoint={0.73}>
       <div className={style.title}>
         <WhiteTxt size='xl'>Video</WhiteTxt>
       </div>
     </FadeIn>
-    <FadeIn breakpoint={0.73}>
+    <FadeIn breakpoint={0.77}>
       <Card className='u-mt64'>
         <ReactPlayer url='https://www.youtube.com/watch?v=kEubj3c2How' width='100%'/>
       </Card>
     </FadeIn>
-    <FadeIn breakpoint={0.83}>
-      <Button to='#' className='u-mt64'>Try His Style</Button>
+    <FadeIn breakpoint={0.91}>
+      <Button to='/camera' className='u-mt64'>Try His Style</Button>
     </FadeIn>
   </Section>
 )
