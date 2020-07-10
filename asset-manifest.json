@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/hokusai/static/css/main.580bf572.chunk.css",
-    "main.js": "/hokusai/static/js/main.e808b6ca.chunk.js",
-    "main.js.map": "/hokusai/static/js/main.e808b6ca.chunk.js.map",
+    "main.css": "/hokusai/static/css/main.5acf1c20.chunk.css",
+    "main.js": "/hokusai/static/js/main.e796f774.chunk.js",
+    "main.js.map": "/hokusai/static/js/main.e796f774.chunk.js.map",
     "runtime-main.js": "/hokusai/static/js/runtime-main.49392689.js",
     "runtime-main.js.map": "/hokusai/static/js/runtime-main.49392689.js.map",
     "static/css/2.a7bca8fd.chunk.css": "/hokusai/static/css/2.a7bca8fd.chunk.css",
-    "static/js/2.42f95149.chunk.js": "/hokusai/static/js/2.42f95149.chunk.js",
-    "static/js/2.42f95149.chunk.js.map": "/hokusai/static/js/2.42f95149.chunk.js.map",
+    "static/js/2.3f4fba73.chunk.js": "/hokusai/static/js/2.3f4fba73.chunk.js",
+    "static/js/2.3f4fba73.chunk.js.map": "/hokusai/static/js/2.3f4fba73.chunk.js.map",
     "index.html": "/hokusai/index.html",
-    "precache-manifest.0a56d2ad0a88e95ff83e9776b38a06ef.js": "/hokusai/precache-manifest.0a56d2ad0a88e95ff83e9776b38a06ef.js",
+    "precache-manifest.0017aa1e1ff94e98729491908326f742.js": "/hokusai/precache-manifest.0017aa1e1ff94e98729491908326f742.js",
     "service-worker.js": "/hokusai/service-worker.js",
     "static/css/2.a7bca8fd.chunk.css.map": "/hokusai/static/css/2.a7bca8fd.chunk.css.map",
-    "static/css/main.580bf572.chunk.css.map": "/hokusai/static/css/main.580bf572.chunk.css.map",
-    "static/js/2.42f95149.chunk.js.LICENSE.txt": "/hokusai/static/js/2.42f95149.chunk.js.LICENSE.txt",
+    "static/css/main.5acf1c20.chunk.css.map": "/hokusai/static/css/main.5acf1c20.chunk.css.map",
+    "static/js/2.3f4fba73.chunk.js.LICENSE.txt": "/hokusai/static/js/2.3f4fba73.chunk.js.LICENSE.txt",
     "static/media/edo.png": "/hokusai/static/media/edo.ed6475c9.png",
     "static/media/great_wave.png": "/hokusai/static/media/great_wave.65ad841b.png",
+    "static/media/style.module.sass": "/hokusai/static/media/ukiyoe.6ae283fa.png",
     "static/media/one.png": "/hokusai/static/media/one.101b932c.png",
     "static/media/popup.png": "/hokusai/static/media/popup.d88a7fb1.png",
     "static/media/portrait.png": "/hokusai/static/media/portrait.fb9685fb.png",
-    "static/media/style.module.sass": "/hokusai/static/media/ukiyoe.6ae283fa.png",
     "static/media/prints.png": "/hokusai/static/media/prints.18df4309.png",
     "static/media/scrollIcon.png": "/hokusai/static/media/scrollIcon.1ee01f40.png",
     "static/media/two.png": "/hokusai/static/media/two.7a7d76df.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.49392689.js",
     "static/css/2.a7bca8fd.chunk.css",
-    "static/js/2.42f95149.chunk.js",
-    "static/css/main.580bf572.chunk.css",
-    "static/js/main.e808b6ca.chunk.js"
+    "static/js/2.3f4fba73.chunk.js",
+    "static/css/main.5acf1c20.chunk.css",
+    "static/js/main.e796f774.chunk.js"
   ]
 }
