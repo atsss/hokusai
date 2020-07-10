@@ -1,19 +1,24 @@
 {
   "files": {
     "main.css": "/hokusai/static/css/main.46d2cf5d.chunk.css",
-    "main.js": "/hokusai/static/js/main.13b5cbc9.chunk.js",
-    "main.js.map": "/hokusai/static/js/main.13b5cbc9.chunk.js.map",
+    "main.js": "/hokusai/static/js/main.21569bf8.chunk.js",
+    "main.js.map": "/hokusai/static/js/main.21569bf8.chunk.js.map",
     "runtime-main.js": "/hokusai/static/js/runtime-main.49392689.js",
     "runtime-main.js.map": "/hokusai/static/js/runtime-main.49392689.js.map",
     "static/css/2.a7bca8fd.chunk.css": "/hokusai/static/css/2.a7bca8fd.chunk.css",
-    "static/js/2.c86b4fa1.chunk.js": "/hokusai/static/js/2.c86b4fa1.chunk.js",
-    "static/js/2.c86b4fa1.chunk.js.map": "/hokusai/static/js/2.c86b4fa1.chunk.js.map",
+    "static/js/2.4dfce466.chunk.js": "/hokusai/static/js/2.4dfce466.chunk.js",
+    "static/js/2.4dfce466.chunk.js.map": "/hokusai/static/js/2.4dfce466.chunk.js.map",
     "index.html": "/hokusai/index.html",
-    "precache-manifest.aef45e49b7c284327c14f10e71369163.js": "/hokusai/precache-manifest.aef45e49b7c284327c14f10e71369163.js",
+    "precache-manifest.ce06680bb3e1e9ab7d59c7ba50dc27a4.js": "/hokusai/precache-manifest.ce06680bb3e1e9ab7d59c7ba50dc27a4.js",
     "service-worker.js": "/hokusai/service-worker.js",
     "static/css/2.a7bca8fd.chunk.css.map": "/hokusai/static/css/2.a7bca8fd.chunk.css.map",
     "static/css/main.46d2cf5d.chunk.css.map": "/hokusai/static/css/main.46d2cf5d.chunk.css.map",
-    "static/js/2.c86b4fa1.chunk.js.LICENSE.txt": "/hokusai/static/js/2.c86b4fa1.chunk.js.LICENSE.txt",
+    "static/js/2.4dfce466.chunk.js.LICENSE.txt": "/hokusai/static/js/2.4dfce466.chunk.js.LICENSE.txt",
+    "static/media/1760.png": "/hokusai/static/media/1760.c2841b21.png",
+    "static/media/1779.png": "/hokusai/static/media/1779.d5092555.png",
+    "static/media/1823.png": "/hokusai/static/media/1823.4429fa29.png",
+    "static/media/1849.png": "/hokusai/static/media/1849.e6502904.png",
+    "static/media/1856.png": "/hokusai/static/media/1856.d9056299.png",
     "static/media/edo.png": "/hokusai/static/media/edo.ed6475c9.png",
     "static/media/eight.png": "/hokusai/static/media/eight.ce1af231.png",
     "static/media/five.png": "/hokusai/static/media/five.ddcb93bf.png",
@@ -36,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.49392689.js",
     "static/css/2.a7bca8fd.chunk.css",
-    "static/js/2.c86b4fa1.chunk.js",
+    "static/js/2.4dfce466.chunk.js",
     "static/css/main.46d2cf5d.chunk.css",
-    "static/js/main.13b5cbc9.chunk.js"
+    "static/js/main.21569bf8.chunk.js"
   ]
 }
