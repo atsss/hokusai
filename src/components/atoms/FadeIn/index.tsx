@@ -12,7 +12,6 @@ export const FadeIn: React.FC<Props> = ({ breakpoint, children }) => {
 
   scrollYProgress.onChange(current => {
     if(current > breakpoint) { setVisible(true) }
-    else { setVisible(false) }
   })
 
   return (
