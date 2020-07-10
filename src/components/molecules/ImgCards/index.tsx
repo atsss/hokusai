@@ -1,7 +1,7 @@
 import React from 'react';
 import { Txt } from "../../atoms/Txt";
-import { Img } from "../../atoms/Img";
 import { HorizontalScroll } from '../../atoms/HorizontalScroll'
+import { ImgWithModal } from '../../molecules/ImgWithModal'
 
 interface Props {
   title: string,
@@ -17,7 +17,7 @@ export const ImgCards: React.FC<Props> = ({ title, data, className }) => {
         <HorizontalScroll>
           {data.map((list: any, index: number) => (
             <div key={index}>
-              <Img src={list.indexSrc}/>
+              <ImgWithModal data={list}/>
             </div>
           ))}
         </HorizontalScroll>
