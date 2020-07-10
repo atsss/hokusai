@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cf89624c5857c6e4d5efc95edf2b5d8",
+    "revision": "ff237ff88fa9f75f33c2c5be9b7be44b",
     "url": "/hokusai/index.html"
   },
   {
-    "revision": "6cb5e3e0b0729d200814",
+    "revision": "eda3fe721da30466a0a7",
     "url": "/hokusai/static/css/2.a7bca8fd.chunk.css"
   },
   {
-    "revision": "d81ca8c6d9cd64d68f93",
+    "revision": "90b335b49aeef5446688",
     "url": "/hokusai/static/css/main.580bf572.chunk.css"
   },
   {
-    "revision": "6cb5e3e0b0729d200814",
-    "url": "/hokusai/static/js/2.638782a3.chunk.js"
+    "revision": "eda3fe721da30466a0a7",
+    "url": "/hokusai/static/js/2.42f95149.chunk.js"
   },
   {
-    "revision": "216e537bacc64f9dbaabd26649a9ab95",
-    "url": "/hokusai/static/js/2.638782a3.chunk.js.LICENSE.txt"
+    "revision": "7bd765323ebf698d1f359f831a4e7c36",
+    "url": "/hokusai/static/js/2.42f95149.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d81ca8c6d9cd64d68f93",
-    "url": "/hokusai/static/js/main.d95a3198.chunk.js"
+    "revision": "90b335b49aeef5446688",
+    "url": "/hokusai/static/js/main.e808b6ca.chunk.js"
   },
   {
     "revision": "faf4ef293d1c65375df4",
